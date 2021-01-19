@@ -10,7 +10,7 @@ GitHub lets you have `<username>.github.io/<repository>/*`, such as `networkhors
 My solution involves reading the requested host within a [Cloudflare Worker](https://workers.cloudflare.com/), slapping it in the repository name section, and then again slapping the path at the end.
 
 If you plan on using this too, you'll need to set up some Worker Routes for your domain.
-![Example Cloudflare Worker Routes](https://raw.githubusercontent.com/networkhorse/cloudflare-gh-proxy-worker/main/cloudflare-worker-routes-example.png)
+![Example Cloudflare Worker Routes](https://raw.githubusercontent.com/networkhorse/cloudflare-gh-proxy-worker/master/cloudflare-worker-routes-example.png)
 
 ## The result
 Go take a look at https://preprocess.uk/ (which will proxy to https://networkhorse.github.io/preprocess.uk/).
